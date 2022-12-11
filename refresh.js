@@ -465,7 +465,9 @@ let typingArray = [
 }   else if (theselect.value == "") {
     typingcells.forEach(cell => {
         cell.style.backgroundColor = "white"
-        storingArray = []
+        let storingArray = [];
+        let name = `storingArray_${i}`;
+        window[name] = storingArray;
 
         fkinres();
 
