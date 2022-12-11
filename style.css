@@ -1,0 +1,256 @@
+@keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -2950px 0; }
+}
+@-moz-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -2950px 0; }
+}
+@-webkit-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -2950px 0; }
+}
+@-ms-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -2950px 0; }
+}
+@-o-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -2950px 0; }}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-image: url(./images/background-sky.jpg);
+    background-size: cover;
+    animation: animatedBackground 40s linear infinite;
+	-moz-animation: animatedBackground 40s linear infinite;
+	-webkit-animation: animatedBackground 40s linear infinite;
+	-ms-animation: animatedBackground 40s linear infinite;
+	-o-animation: animatedBackground 40s linear infinite;
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexcol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    width: 80%;
+    height: 80%;
+}
+
+.typelist {
+    width: 100%;
+    height: 12.5%;
+
+}
+
+.box1 {
+    width: 33%;
+    height: 100%;
+}
+
+.types {
+    width: 67%;
+    height: 100%;
+
+}
+
+.type {
+    width: 5.8823529411764%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-orientation: mixed;
+    writing-mode: vertical-rl;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 700;
+    background-image: url(./images/fond-noir-25.png);
+    background-size: 50% 100%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    border: 1px grey solid;
+    font-size: calc(0.6vw + 0.6vh);
+
+
+}
+
+.pokemons {
+    width: 100%;
+    height: 75%;
+}
+
+.pokeone {
+    width: 100%;
+    height: 16.666666666%;
+    box-sizing: border-box;
+
+}
+
+.imgbox {
+    width: 13%;
+    height: 100%;
+    background-color: white;
+    border: 1px grey solid;
+
+    
+    
+}
+
+.selectbox {
+    width: 20%;
+    height: 100%;
+    background-color: grey;
+}
+
+
+.typingbox {
+    width: 67%;
+    height: 100%;
+}
+
+.img {
+    object-fit: contain;
+}
+.duotype {
+    width: 50%;
+    height: 100%;
+}
+
+
+
+
+
+
+.typez_1, .typez_2, .typez_3, .typez_4, .typez_5, .typez_6 {
+    width: 100%;
+    height: 50%;
+    text-transform: uppercase;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 700;
+    background-image: url(./images/fond-noir-25.png);
+    background-size: 100% 50%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    font-size: calc(0.6vw + 0.6vh);
+
+}
+
+.typez_1:empty, .typez_2:empty, .typez_3:empty, .typez_4:empty, .typez_5:empty, .typez_6:empty {
+    display: none;
+  }
+
+
+.typing_1, .typing_2, .typing_3, .typing_4, .typing_5, .typing_6 {
+    width: 5.8823529411764%;
+    height: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    color: black;
+    font-weight: 700;
+    font-size: calc(1.2vw + 1.2vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px grey solid;
+}
+
+.selectpoke_1, .selectpoke_2, .selectpoke_3, .selectpoke_4, .selectpoke_5, .selectpoke_6, .selectr-container {
+    width: 100%;
+    height: 50%;
+    text-transform: capitalize;
+    font-size: calc(1vw + 1vh);
+
+}
+
+.ability_1, .ability_2, .ability_3, .ability_4, .ability_5, .ability_6 {
+    width: 100%;
+    height: 50%;
+    text-transform: capitalize;
+    font-size: calc(1.2vw + 1.2vh);
+
+
+}
+
+.icones_1, .icones_2, .icones_3, .icones_4, .icones_5, .icones_6 {
+    width: 50%;
+    height: 100%;
+}
+
+.results {
+    width: 100%;
+    height: 12.5%;
+    box-sizing: border-box;
+
+}
+
+.firstbox {
+    width: 13%;
+    height: 100%;
+}
+
+.secondbox {
+    width: 20%;
+    height: 100%;
+}
+
+.thirdbox {
+    width: 67%;
+    height: 100%;
+}
+
+.result {
+    width: 5.8823529411764%;
+    height: 100%;
+    box-sizing: border-box;
+    color: black;
+    font-weight: 700;
+    font-size: calc(1.2vw + 1.2vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px grey solid;
+}
+
+.logodiv {
+    position: absolute;
+    background-image: url("./images/kriliinlogo3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: calc(30vw - 1px);
+    height: calc(21vh - 10px);
+    z-index: -1;
+    margin-left: calc(8vw - 50px);
+}
+
+
+.selectr-selected {
+height: 100%;
+}
