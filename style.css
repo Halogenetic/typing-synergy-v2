@@ -102,9 +102,6 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-image: url("./images/kriliinlogo3.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .firstbox {
