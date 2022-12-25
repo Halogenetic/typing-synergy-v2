@@ -6,71 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typing Synergy</title>
     <link rel="stylesheet" href="style.css">
-<link href="https://unpkg.com/mobius1-selectr@latest/dist/selectr.min.css" rel="stylesheet" type="text/css">
+    <link href="https://unpkg.com/mobius1-selectr@latest/dist/selectr.min.css" rel="stylesheet" type="text/css">
     <script src="https://unpkg.com/mobius1-selectr@latest/dist/selectr.min.js" type="text/javascript"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./images/kricon.png">
 
 </head>
 <body>
-    <div class="logodiv"></div>
-    <div class="container flexcol">
-        <div class="box flexcol">
-            <div class="typelist flexrow">
-                <div class="box1">
-                    <button class="lang-en"></button>
-                    <button class="lang-fr"></button>
-                    <button class="lang-es"></button>
-                    <button class="lang-ch"></button>
-                    <button class="lang-sk"></button>
+    <div class="container">
+        <div class="megabox">
+            <div class="box">
+                <div class="typelist flexrow">
+                    <div class="box1">
+                    </div>
+                    <div class="types flexrow">
+                        <div class="type" style="background-color: #b3b3b2 ;">Normal</div>
+                        <div class="type" style="background-color: #C03131 ;">Fighting</div>
+                        <div class="type" style="background-color: #98BDBF ;">Flying</div>
+                        <div class="type" style="background-color: #AB55A2 ;">Poison</div>
+                        <div class="type" style="background-color: #CEBB6D ;">Ground</div>
+                        <div class="type" style="background-color: #BC9C5B ;">Rock</div>
+                        <div class="type" style="background-color: #BCD059 ;">Bug</div>
+                        <div class="type" style="background-color: #5E7289 ;">Ghost</div>
+                        <div class="type" style="background-color: #AFB4BC ;">Steel</div>
+                        <div class="type" style="background-color: #FB7A18 ;">Fire</div>
+                        <div class="type" style="background-color: #37B0BD ;">Water</div>
+                        <div class="type" style="background-color: #6FDB59 ;">Grass</div>
+                        <div class="type" style="background-color: #E0C519 ;">Electric</div>
+                        <div class="type" style="background-color: #EC6CEC ;">Psychic</div>
+                        <div class="type" style="background-color: #9BDED9 ;">Ice</div>
+                        <div class="type" style="background-color: #729DD0 ;">Dragon</div>
+                        <div class="type" style="background-color: #656565 ;">Dark</div>
+                    </div>
                 </div>
-                <div class="types flexrow">
-                    <div class="type" style="background-color: #b3b3b2 ;">Normal</div>
-                    <div class="type" style="background-color: #C03131 ;">Fighting</div>
-                    <div class="type" style="background-color: #98BDBF ;">Flying</div>
-                    <div class="type" style="background-color: #AB55A2 ;">Poison</div>
-                    <div class="type" style="background-color: #CEBB6D ;">Ground</div>
-                    <div class="type" style="background-color: #BC9C5B ;">Rock</div>
-                    <div class="type" style="background-color: #BCD059 ;">Bug</div>
-                    <div class="type" style="background-color: #5E7289 ;">Ghost</div>
-                    <div class="type" style="background-color: #AFB4BC ;">Steel</div>
-                    <div class="type" style="background-color: #FB7A18 ;">Fire</div>
-                    <div class="type" style="background-color: #37B0BD ;">Water</div>
-                    <div class="type" style="background-color: #6FDB59 ;">Grass</div>
-                    <div class="type" style="background-color: #E0C519 ;">Electric</div>
-                    <div class="type" style="background-color: #EC6CEC ;">Psychic</div>
-                    <div class="type" style="background-color: #9BDED9 ;">Ice</div>
-                    <div class="type" style="background-color: #729DD0 ;">Dragon</div>
-                    <div class="type" style="background-color: #656565 ;">Dark</div>
+                <div class="pokemons">
+                </div>
+                <div class="results flexrow">
+                    <div class="firstbox flexrow">
+                        <button class="lang-en"></button>
+                        <button class="lang-fr"></button>
+                        <button class="lang-es"></button>
+                        <button class="lang-ch"></button>
+                        <button class="lang-sk"></button>
+                    </div>
+                    <div class="secondbox flexcol"></div>
+                    <div class="thirdbox flexrow">
+                        <div class="result normal"></div>
+                        <div class="result fighting"></div>
+                        <div class="result flying"></div>
+                        <div class="result poison"></div>
+                        <div class="result ground"></div>
+                        <div class="result rock"></div>
+                        <div class="result bug"></div>
+                        <div class="result ghost"></div>
+                        <div class="result steel"></div>
+                        <div class="result fire"></div>
+                        <div class="result water"></div>
+                        <div class="result grass"></div>
+                        <div class="result electric"></div>
+                        <div class="result psychic"></div>
+                        <div class="result ice"></div>
+                        <div class="result dragon"></div>
+                        <div class="result dark"></div>
+                    </div>
                 </div>
             </div>
-            <div class="pokemons">
-            </div>
-            <div class="results flexrow">
-                <div class="firstbox flexrow"></div>
-                <div class="secondbox flexcol"></div>
-                <div class="thirdbox flexrow">
-                    <div class="result normal"></div>
-                    <div class="result fighting"></div>
-                    <div class="result flying"></div>
-                    <div class="result poison"></div>
-                    <div class="result ground"></div>
-                    <div class="result rock"></div>
-                    <div class="result bug"></div>
-                    <div class="result ghost"></div>
-                    <div class="result steel"></div>
-                    <div class="result fire"></div>
-                    <div class="result water"></div>
-                    <div class="result grass"></div>
-                    <div class="result electric"></div>
-                    <div class="result psychic"></div>
-                    <div class="result ice"></div>
-                    <div class="result dragon"></div>
-                    <div class="result dark"></div>
+            <div class="footer">
+                <div class="footerbox">
+                    <div>Made by Kriliin [läva]</div>
                 </div>
             </div>
         </div>
-        <!-- <div class="footer">
-            <p>Hey</p>
-        </div> -->
     </div>
     <script src="HTMLgenerator.js"></script>
     <script src="optionsgenerator.js"></script>
