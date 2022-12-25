@@ -71,7 +71,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 6%;
+    border: 1px grey solid;
 }
 
 .types {
@@ -256,8 +256,8 @@ height: 100%;
 }
 
 .lang-fr {
-    width: calc(4vw - 10px);
-    height: calc(8vh - 10px);
+    width: 20%;
+    height: 100%;
     background-image: url(./images/franceflag.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -265,24 +265,24 @@ height: 100%;
 
 
 .lang-en {
-    width: calc(4vw - 10px);
-    height: calc(8vh - 10px);
+    width: 20%;
+    height: 100%;
     background-image: url(./images/gbflag.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .lang-es {
-    width: calc(4vw - 10px);
-    height: calc(8vh - 10px);
+    width: 20%;
+    height: 100%;
     background-image: url(./images/spfl.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .lang-ch {
-    width: calc(4vw - 10px);
-    height: calc(8vh - 10px);
+    width: 20%;
+    height: 100%;
     background-image: url(./images/chinaflag.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -290,8 +290,8 @@ height: 100%;
 
 
 .lang-sk {
-    width: calc(4vw - 10px);
-    height: calc(8vh - 10px);
+    width: 20%;
+    height: 100%;
     background-image: url(./images/skflag.png);
     background-repeat: no-repeat;
     background-size: cover;
