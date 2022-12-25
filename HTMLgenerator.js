@@ -1,3 +1,5 @@
+const htmlgen = () => {
+
 for (let i = 1; i <= 6; i++) {
     let html = `
         <div class="pokeone flexrow">
@@ -27,7 +29,7 @@ for (let i = 1; i <= 6; i++) {
             <select name="pokemons" id="select-pokemons" placeholder="Pick a pokemon..." class="selectpoke_${i}">
                 <option value="">None</option>
             </select>
-            <select name="ability" id="" class="ability_${i}">
+            <select name="ability" id="select-ability" class="ability_${i}">
                 <option value="">None</option>
                 <option value="1">Dry Skin</option>
                 <option value="2">Flash Fire</option>
@@ -69,3 +71,7 @@ for (let i = 1; i <= 6; i++) {
     pokestart.insertAdjacentHTML('beforeend', html);
 
 }
+
+}
+
+htmlgen();

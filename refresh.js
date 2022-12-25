@@ -1,3 +1,6 @@
+const megarefresh = () => {
+
+
 for (let i = 1; i <= 6; i++) {
 
   let theselect = document.querySelector(`.selectpoke_${i}`);
@@ -77,6 +80,41 @@ for (let i = 1; i <= 6; i++) {
                     type.style.height = "100%";
                     type.style.paddingTop = "40%";
                 }
+
+                types_l = ["normal", "fighting", "flying", "poison", "ground", "rock", "bug", "ghost", "steel", "fire", "water", "grass", "electric", "psychic", "ice", "dragon", "dark"];
+                let translations = [];
+                const verifylang = document.querySelectorAll('.type')
+
+
+                if (verifylang[1].innerHTML === 'Fighting') {
+                   translations = ["Normal", "Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass", "Electric", "Psychic", "Ice", "Dragon", "Dark"];
+                }
+
+                else if (verifylang[1].innerHTML === 'Combat') {
+                    translations = ["Normal", "Combat", "Vol", "Poison", "Sol", "Roche", "Insecte", "Spectre", "Acier", "Feu", "Eau", "Plante", "Electrik", "Psy", "Glace", "Dragon", "Ténèbre"];
+                }
+
+                else if (verifylang[1].innerHTML === '格斗') {
+                    translations = ["普通", "格斗", "飞行", "毒", "地面", "岩石", "虫", "鬼", "钢", "火", "水", "草", "电", "超能力", "冰", "龙", "恶"];
+                }
+
+                else if (verifylang[1].innerHTML === '격투') {
+                    translations = ["일반", "격투", "비행", "독", "땅", "바위", "벌레", "고스트", "강철", "불꽃", "물", "풀", "전기", "에스퍼", "얼음", "드래곤", "악"];
+                }
+
+                else if (verifylang[1].innerHTML === 'Lucha') {
+                    translations = ["Normal", "Lucha", "Volador", "Veneno", "Tierra", "Roca", "Bicho", "Fantasma", "Acero", "Fuego", "Agua", "Planta", "Eléctrico", "Psíquico", "Hielo", "Dragón", "Siniestro"];
+                }
+
+
+                for (let i = 0; i < types_l.length; i++) {
+
+                if (type.innerHTML === types_l[i]) {
+                    type.innerHTML = translations[i];
+                    break; // On sort de la boucle dès qu'on a trouvé et remplacé l'élément
+                } 
+                }
+
             }
             
         )
@@ -486,3 +524,7 @@ theability.addEventListener('change', () => {
 })
 
 }
+
+}
+
+megarefresh();
