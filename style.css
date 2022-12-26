@@ -102,11 +102,35 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-image: url(images/goku.gif);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
+}
 
+.indic {
+    width: 20%;
+    height: 100%;
+    transition: 0.2s;
+    border: 3px grey solid;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.8) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.whitebox {
+    background-color: white;
+}
+
+.redbox {
+    background-color: #8F2424;
+}
+
+.lredbox {
+    background-color: #C03131;
+}
+
+.lgreenbox {
+    background-color: #6FDB59;
+}
+
+.greenbox {
+    background-color: #52A242;
 }
 
 .firstbox {
@@ -116,7 +140,6 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border: 1px grey solid;
 }
 
 .types {
@@ -144,10 +167,12 @@ body {
     background-repeat: no-repeat;
     border: 1px grey solid;
     font-size: calc(0.5vw + 0.5vh);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+
+.type:hover {
+    box-shadow: none}
 
 .pokemons {
     width: 100%;
@@ -167,10 +192,6 @@ body {
     height: 100%;
     background-color: white;
     border: 1px grey solid;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-    
-    
 }
 
 .selectbox {
@@ -181,8 +202,6 @@ body {
 .selectr-container {
     width: 20%;
     height: 100%;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-
 }
 
 
@@ -213,11 +232,14 @@ body {
     background-position: bottom left;
     background-repeat: no-repeat;
     font-size: calc(0.6vw + 0.6vh);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-    
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
 }
+.typez_1:hover, .typez_2:hover, .typez_3:hover, .typez_4:hover, .typez_5:hover, .typez_6:hover {
+    box-shadow: none;
+}
+
 
 .typez_1:empty, .typez_2:empty, .typez_3:empty, .typez_4:empty, .typez_5:empty, .typez_6:empty {
     display: none;
@@ -237,7 +259,8 @@ body {
     align-items: center;
     background-color: white;
     border: 1px grey solid;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
 .selectpoke_1, .selectpoke_2, .selectpoke_3, .selectpoke_4, .selectpoke_5, .selectpoke_6, .selectr-container {
     width: 100%;
@@ -259,6 +282,15 @@ body {
 .icones_1, .icones_2, .icones_3, .icones_4, .icones_5, .icones_6 {
     width: 50%;
     height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  
+    transition: 0.2s;
+
+}
+
+.icones_1:hover, .icones_2:hover, .icones_3:hover, .icones_4:hover, .icones_5:hover, .icones_6:hover {
+    width: 50%;
+    height: 100%;
+    box-shadow: none;
 }
 
 .results {
@@ -290,8 +322,12 @@ body {
     align-items: center;
     background-color: white;
     border: 1px grey solid;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
 
+.result:hover {
+    box-shadow: none;
 }
 
 
@@ -307,12 +343,17 @@ height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border: 3px grey solid;
+    box-sizing: border-box;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
 }
 
 .lang-fr:hover{ 
-    border: grey 1px solid;
-    
+    border: 1px grey solid;
+    box-shadow: none;
+
 }
 
 
@@ -323,13 +364,18 @@ height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
+    border: 3px grey solid;
+    box-sizing: border-box;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
 }
 
 
 .lang-en:hover{ 
-    border: grey 1px solid;
-    
+    border: 1px grey solid;
+    box-shadow: none;
+
 }
 
 .lang-es {
@@ -339,12 +385,17 @@ height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
+    border: 3px grey solid;
+    box-sizing: border-box;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
 }
 
 .lang-es:hover{ 
-    border: grey 1px solid;
-    
+    border: 1px grey solid;
+    box-shadow: none;
+
 }
 
 .lang-ch {
@@ -354,13 +405,18 @@ height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
+    border: 3px grey solid;
+    box-sizing: border-box;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
 }
 
 
 .lang-ch:hover{ 
-    border: grey 1px solid;
-    
+    border: 1px grey solid;
+    box-shadow: none;
+
 }
 
 .lang-sk {
@@ -370,11 +426,16 @@ height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
+    border: 3px grey solid;
+    box-sizing: border-box;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
 }
 
 .lang-sk:hover{ 
-    border: grey 1px solid;
-    
+    border: 1px grey solid;
+    box-shadow: none;
+
 }
 

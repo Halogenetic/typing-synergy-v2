@@ -508,15 +508,21 @@ let typingArray = [
         window[name] = storingArray;
 
         fkinres();
+        
 
     })}
+    
 }
     
 fullTyping();
 
 }
 
-theselect.addEventListener('change', refresh)
+theselect.addEventListener('change', () => {
+  
+    refresh()
+    
+})
 
 theability.addEventListener('change', () => {
   
