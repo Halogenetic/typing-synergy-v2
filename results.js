@@ -63,7 +63,7 @@ const fkinres = () => {
         // 10. Set the background color of each element in myresults based on the value of thirdArray
         if (thirdArray > 8) {
             myresults[i].style.backgroundColor = "#52A242";
-        } else if (thirdArray > 6) {
+        } else if (thirdArray > 6.05) {
             myresults[i].style.backgroundColor = "#6FDB59";
         } else if (thirdArray == 6) {
             myresults[i].style.backgroundColor = "#C03131";
@@ -71,6 +71,8 @@ const fkinres = () => {
             myresults[i].style.backgroundColor = "#8F2424";
         } else if (secondArray.length !== 0) {
             myresults[i].style.backgroundColor = "#C03131";
-        }
+        } 
     }
+
+
 }
